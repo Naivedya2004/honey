@@ -1,0 +1,72 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d66af6dd-edf8-470b-bc36-6d5fd334b88d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ERROR",
+     "evalue": "Error in parse(text = x, srcfile = src): <text>:1:8: unexpected numeric constant\n1: Answer 1\n           ^\n",
+     "output_type": "error",
+     "traceback": [
+      "Error in parse(text = x, srcfile = src): <text>:1:8: unexpected numeric constant\n1: Answer 1\n           ^\nTraceback:\n"
+     ]
+    }
+   ],
+   "source": [
+    "Answer 1: The rules are as follows:\n",
+    "1. a variable name must start with a letter or the underscore character.\n",
+    "2. a variable name cannot start with a number.\n",
+    "3. a variable name can only contain alpha-numeric characters and underscores.\n",
+    "4. variable names are case sensitive.\n",
+    "\n",
+    "Answer 2: We cannot use a keyword as a variable name or a function name.If we use we will get an error.\n",
+    "          no object can have the same name as a reserved word.\n",
+    "\n",
+    "Answer 3: Yes, we can declare a string as a variable because strings are data so we can use \n",
+    "          them to fill up a variable.\n",
+    "\n",
+    "Answer 4: yes we can use \"-\" as  variable.\n",
+    "          year, month, day, _, _, _ = (2020, 7, 10, 12, 10, 59)\n",
+    "print(_)\n",
+    "\n",
+    "Answer 5: Python is a dynamically types language or the variables are dynamic in nature which means that variables have a type\n",
+    "          and it matters when performing operations on a variables or the type of the variable is determined only during run\n",
+    "          time.\n",
+    "          var = \"naivedya\"\n",
+    "          val = 1\n",
+    "          dict1 = {var: val}\n",
+    "          print(dict1[\"naivedya\"])\n",
+    "\n",
+    "Output: 1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "766c15f0-e8c2-4629-9473-aa87ca26da26",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "R",
+   "language": "R",
+   "name": "ir"
+  },
+  "language_info": {
+   "codemirror_mode": "r",
+   "file_extension": ".r",
+   "mimetype": "text/x-r-source",
+   "name": "R",
+   "pygments_lexer": "r",
+   "version": "4.2.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
